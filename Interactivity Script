@@ -1,0 +1,11 @@
+<script>
+    const cards = document.querySelectorAll('.card');
+    cards.forEach(card => {
+        card.addEventListener('mousedown', () => {
+            card.style.transform = 'scale(0.95)';
+        });
+        card.addEventListener('mouseup', () => {
+            card.style.transform = 'translateY(-5px) scale(1)';
+        });
+    });
+</script>
