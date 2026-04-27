@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Helper Hub — Ваш провідник у світ ШІ</title>
+    <style>
+        /* ОСНОВНІ СТИЛІ */
+        body {
+            margin: 0;
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: radial-gradient(circle at top right, #1e293b, #0f172a);
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* КОНТЕЙНЕР */
+        .container {
+            max-width: 900px;
+            width: 90%;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(15px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        /* ЗАГОЛОВОК */
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #94a3b8;
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+
+        /* СІТКА ПОСЛУГ */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.3s ease;
+            text-align: left;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: #60a5fa;
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: #60a5fa;
+        }
+
+        .price {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 5px 12px;
+            background: rgba(96, 165, 250, 0.1);
+            border-radius: 20px;
+            color: #93c5fd;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        /* КНОПКА */
+        .cta-btn {
+            display: inline-block;
+            margin-top: 50px;
+            padding: 15px 40px;
+            background: #60a5fa;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-weight: bold;
+            transition: 0.3s;
+            box-shadow: 0 10px 20px -5px rgba(96, 165, 250, 0.4);
+        }
+
+        .cta-btn:hover {
+            background: #3b82f6;
+            box-shadow: 0 15px 25px -5px rgba(96, 165, 250, 0.6);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Helper Hub</h1>
+    <p class="subtitle">Ваш персональний центр рішень на базі штучного інтелекту</p>
+
+    <div class="grid">
+        <div class="card">
+            <h3>📝 Тексти для бізнесу</h3>
+            <p>Статті, пости та листи, написані розумним ШІ.</p>
+            <span class="price">від 300 грн</span>
+        </div>
+
+        <div class="card">
+            <h3>🎨 AI-Дизайн</h3>
+            <p>Унікальні зображення та логотипи за вашим запитом.</p>
+            <span class="price">від 500 грн</span>
+        </div>
+
+        <div class="card">
+            <h3>🤖 ШІ-Консультації</h3>
+            <p>Допомога у налаштуванні нейромереж для ваших завдань.</p>
+            <span class="price">від 400 грн</span>
+        </div>
+    </div>
+
+    <a href="https://t.me" class="cta-btn">Замовити послугу</a>
+</div>
+
+</body>
+</html>
