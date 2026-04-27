@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="card">
+        <h3>✍️ Тексти та Копірайт</h3>
+        <p>Напишу 10 постів для вашого бізнесу за допомогою ШІ.</p>
+        <p style="color: #38bdf8; font-weight: bold;">Ціна: від 200 грн</p>
+    </div>
+    <!-- Кнопка зв'язку (CTA - Call to Action) -->
+    <div style="text-align: center; margin-top: 30px;">
+        <a href="https://t.me" class="btn" style="background: #0088cc; color: white;">✈️ Написати в Telegram</a>
+    </div>
+</div>
